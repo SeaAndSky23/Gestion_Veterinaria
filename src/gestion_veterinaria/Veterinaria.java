@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Veterinaria {
+    //Uso de Colecciones (ArrayList)
     private List<Mascota> listaMascotas;
 
     public Veterinaria() {
