@@ -17,4 +17,12 @@ public class Veterinaria {
             listaMascotas.forEach(System.out::println);
         }
     }
+    public void registrarMascota(String nombre, int edad) {
+        listaMascotas.add(new Mascota(nombre, edad));
+        System.out.println("Mascota registrada con exito.");
+    }
+    public void registrarMascota(String nombre) {
+        listaMascotas.add(new Mascota(nombre, 0));
+        System.out.println("Mascota registrada (edad por defecto: 0).");
+    }
 }
