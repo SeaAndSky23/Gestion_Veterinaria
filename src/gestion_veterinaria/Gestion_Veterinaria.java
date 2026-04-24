@@ -49,7 +49,7 @@ public class Gestion_Veterinaria {
                         break;
                 }
             } catch (InputMismatchException e) {
-                System.err.println("ERROR: Debe ingresar un numero entero.");
+                System.err.println("ERROR: DEBE INGRESAR UN NUMERO ENTERO");
                 sc.nextLine(); 
             } catch (Exception e) {
                 System.err.println("Ocurrio un error inesperado: " + e.getMessage());
